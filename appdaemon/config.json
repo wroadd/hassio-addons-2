@@ -1,11 +1,11 @@
 {
-    "name": "AppDaemon",
-    "version": "0.0.13",
-    "slug": "appdaemon",
-    "description": "Beta version of HADaemon (https://github.com/home-assistant/appdaemon/tree/hadashboard_beta)",
-    "url": "https://github.com/vkorn/hassio-addons",
+    "name": "HassDash2",
+    "version": "0.0.1",
+    "slug": "hassdash2",
+    "description": "Master version of HADaemon (https://github.com/home-assistant/appdaemon/tree/hadashboard_beta)",
+    "url": "https://github.com/wroadd/hassio-addons",
     "startup": "after",
-    "image": "vkorn/{arch}-appdaemon",
+    "image": "wroadd/{arch}-hassdash",
     "boot": "auto",
     "map": ["config:rw"],
     "options": {
