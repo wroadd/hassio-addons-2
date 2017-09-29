@@ -1,4 +1,4 @@
-FROM %%BASE_IMAGE%%
+FROM python3.6
 
 ENV LANG C.UTF-8
 
